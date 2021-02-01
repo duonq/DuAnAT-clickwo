@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial;
+}
+body{
+    background-color: #eefaf1;
+}
+.navmenu-tong{
+    width: 100%;
+    height: 51px;
+    /* overflow: hidden;
+    position: fixed; */
+    top: 0;
+}
+.menuTong{
+    width: 100%;
+    height: 51px;
+    top: 0;
+    
+}
+.grid-container{
+    display: flex;
+    width: 100%;
+    background-color:#EBF0F2;
+    position: relative;
+}
+.grid-container a{
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 20px 20px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+.grid-container a:hover{
+    background-color: Silver;
+}
+.navleft{
+    display: flex;
+    
+}
+.avt{
+    width: 8%;
+    border-radius: 50px;
+}
+.nav-left{
+    padding-left: 250px;
+}
+.item2{
+    float: right;
+    padding-left: 600px;
+}
+.nen{
+    
+    width: 1000px;
+    height: 500px;
+    background-color: #ebf5f6;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+}
+.duAn{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.duAn a{
+    cursor: pointer;
+}
+.write{
+    display: flex;
+    line-height: 1;
+}
+hr{
+    padding-left: 200px;
+    margin-right: 500px;
+    border-bottom:1.5px solid black ;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.khau{
+    padding: 10px 20px;
+    width: 900px;
+    height: 350px;
+    background-color: #e9f1f0df;
+    margin: auto;
+
+}
+.khau>h3{
+    background-color: #eeeeee;
+    border: solid #eeeeee;
+    width: 20%;
+}
+.fordel{
+    width: 90%;
+    height: 320px;
+    background-color: #eeeeee;
+    
+    position: absolute;
+}
+
+.div1{
+    border: solid #fbfbf6;
+    border-radius: 5px;
+    margin: 10px 40px;
+    background-color: #FFFAFA;
+}
+.div-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.div-2{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 10px;
+}
+.div-2 a, .div-1 a {
+    border-radius: 50%;
+    font-size: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.div-2 a:hover{
+    background-color: #DBE6F0;
+}
+.div-plus > a >i{
+    color: white;
+    padding: 10px;
+    
+    
+}
+.div-plus a{
+    float: left;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-left: 30px;
+    background-color: rgb(75, 131, 236);
+    cursor: pointer;
+}
+.div-plus a:hover{
+    background-color: #54c4f0;
+}
+.btn{
+    float: right;
+    height: 40px;
+    width: 10%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: rgb(32, 112, 202);
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+    margin-right: 50px;
+    cursor: pointer;
+    transition: .5s;
+}
+.btn:hover{
+    background: rgb(13, 21, 131);
+    color: white;
+}
