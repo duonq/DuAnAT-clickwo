@@ -6,87 +6,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>CLICKWO.COM</title>
+    <title>login</title>
 </head>
 
 <body>
-    <div class="main">
-        <div class="container">
-            <div class="row">
-                <div class="login-content">
-                    <form action="">
-                        <div class="div1">
-                            <h2><a href="" class="clickwo">CLICKWO.COM</a></h2>
-                            <h4>Tạo tài khoản miễn phí của bạn.</h4>
+    <div class="container">
+        <div class="left">
+            <div class="login-content">
+                <form>
+                    <h2><a href="" class="clickwo">CLICKWO.COM</a></h2>
+                    <h4>Tạo tài khoản miễn phí của bạn.</h4>
+                    <p class="Google">
+                        <a href="" class="dangnhapG">
+                            <!-- <img src="img/Google.jpg" alt="" class="imgG"> -->
+                            <i class="fa fa-google fa-fw">
+                            </i>
+                            Đăng nhập với Google
+                        </a>
+                    </p>
+                    <div class="div">
+                        <div class="hr">
+                            <hr class="hr1">
+                            <p class="Hoac">Hoặc</p>
+                            <hr class="hr2">
                         </div>
+                        <p class="create">Đăng nhập với mail</p>
+                    </div>
 
-                        <div class="div2">
-                            <p class="Google">
-                                <a href="" class="dangnhapG">
-                                    <i class="fa fa-google fa-fw">
-                                    </i>
-                                    Đăng nhập với Google
-                                </a>
-                            </p>
+                    <div class="input-div name">
+                        <div class="">
+                            <i class="i"></i>
                         </div>
-
-                        <div class="div3">
-                            <div class="hr">
-                                <hr class="hr1">
-                                <p class="Hoac">Hoặc</p>
-                                <hr class="hr2">
-                            </div>
-                            <p class="create">Đăng nhập với mail</p>
+                        <div class="div">
+                            <p>Họ tên bạn</p>
+                            <input type="text" required class="input">
                         </div>
+                    </div>
 
-                        <div class="input-div name">
-                            <div class="">
-                                <i class="i"></i>
-                            </div>
-                            <div class="div">
-                                <p>Họ tên bạn</p>
-                                <input type="text" required class="input">
-                            </div>
+                    <div class="input-div mail">
+                        <div class="">
+                            <i class="i"></i>
                         </div>
-
-                        <div class="input-div mail">
-                            <div class="">
-                                <i class="i"></i>
-                            </div>
-                            <div class="div">
-                                <p>Địa chỉ mail/ số điện thoại</p>
-                                <input type="text" required class="input">
-                            </div>
+                        <div class="div">
+                            <p>Địa chỉ mail/ số điện thoại</p>
+                            <input type="text" required class="input">
                         </div>
+                    </div>
 
-                        <div class="input-div pass">
-                            <div class="">
-                                <i class="i"></i>
-                            </div>
-                            <div class="div">
-                                <p>Nhập Password</p>
-                                <input type="password" required class="input" id="pass" onclick="pass()">
-                                <img src="img/eye.png" alt="" class="eye" onclick="eye()">
-                            </div>
+                    <div class="input-div pass">
+                        <div class="">
+                            <i class="i"></i>
                         </div>
-
-                        <div class="forget">
-                            <label><input type="checkbox">Nhớ mật khẩu.</label>
-                            <a class="a">Quên mật khẩu?</a>
+                        <div class="div">
+                            <p>Nhập Password</p>
+                            <input type="password" required class="input" id="pass" onclick="pass()">
+                            <img src="img/eye.png" alt="" class="eye" onclick="eye()">
                         </div>
+                    </div>
 
-                        <input type="submit" class="btn" value="Login">
-                    </form>
-                </div>
-
+                    <div class="forget">
+                        <label><input type="checkbox">Nhớ mật khẩu.</label>
+                        <a class="a">Quên mật khẩu?</a>
+                    </div>
+                    <input type="submit" class="btn" value="Login">
+                </form>
             </div>
 
-            <div class="row">
-                <img src="img/noithat.jpg" alt="" class="noithat" height="100%">
-            </div>
+        </div>
+        <div class="row">
+            <img src="img/noithat.jpg" alt="noi that" class="noithat">
         </div>
     </div>
-
+    
     <script src="js/main.js"></script>
 </body>
 
